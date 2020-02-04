@@ -4,7 +4,7 @@ A pointless virtual machine
 """
 
 from library import *
-from variables import HELLO, POWER, MENU
+from variables import *
 
 print_message(replace_words_with_spam(POWER))
 
