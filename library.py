@@ -7,5 +7,10 @@ def replace_words_with_spam(message):
     return newmessage
 
 def add_zero_to_number(number):
-    newnumber = number + 0.0
+    newnumber = number + 0
     return newnumber
+
+def multiply_number_by_one(number):
+    newnumber = number*1
+    return newnumber
+
