@@ -1,3 +1,4 @@
+from re import sub
 
 def print_message(message):
     print(message)
@@ -9,3 +10,7 @@ def replace_words_with_spam(message):
 def add_zero_to_number(number):
     newnumber = number + 0.0
     return newnumber
+
+def censor_words(message):
+    newmessage = ' '.join([sub("[a-zA-Z]+", "#", m) for m in message.split()])
+    return newmessage
