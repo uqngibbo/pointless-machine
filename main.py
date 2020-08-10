@@ -6,7 +6,7 @@ A pointless virtual machine
 from library import *
 from variables import *
 
-def do_nothing():
+def do_nothing(argument):
     pass
 
 print_message(replace_words_with_spam(POWER))
