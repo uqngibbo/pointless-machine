@@ -6,6 +6,9 @@ A pointless virtual machine
 from library import *
 from variables import *
 
+def do_nothing():
+    pass
+
 print_message(replace_words_with_spam(POWER))
 
 number = 19920829
